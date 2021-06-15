@@ -1,0 +1,16 @@
+.nav {
+  flex: 1;
+  height: 62px;
+  background-color: var(--blue);
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 40px;
+  }
+}

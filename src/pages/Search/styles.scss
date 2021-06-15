@@ -1,0 +1,99 @@
+.search-container {
+  padding-left: 94px;
+  padding-right: 94px;
+  padding-top: 54px;
+  padding-bottom: 73px;
+  height: calc(100vh - 62px -73px);
+}
+
+.search-user {
+  background-color: var(--lightBlue);
+  border-radius: 16px;
+  width: 1251px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 94px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.search-title {
+  color: var(--titleColor);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+  margin-bottom: 12px;
+}
+
+input {
+  width: 676px;
+  height: 40px;
+  margin-bottom: 24px;
+  border: 1px solid var(--InputBorderColor);
+  border-radius: 4px;
+  margin-right: 12px;
+  text-indent: 12px;
+  color: var(--InputTextColor);
+}
+
+.result-area {
+  width: 1251px;
+  height: 387px;
+  background-color: var(--lightGrey);
+  border-radius: 16px;
+  margin-top: 54px;
+  padding-right: 26px;
+  padding-left: 26px;
+  padding-bottom: 27px;
+  padding-top: 23px;
+}
+
+.info {
+  display: flex;
+}
+
+.img-user {
+  height: 337px;
+}
+
+.img-user img{
+  width: 284px;
+  margin-right: 40px;
+  margin-bottom: 17px;
+}
+
+.about-user {
+  width: 870px;
+  height: 279px;
+}
+
+.user-follows {
+  height: 22px;
+  margin-bottom: 11px;
+  display: flex;
+}
+
+.user-info {
+  width: 870px;
+  padding: 12px 15px;
+  height: 247px;
+  background-color: var(--white);
+  border-radius: 6px;
+  border: 1px solid var(--InputBorderColor);
+}
+
+.user-info-title {
+  color: var(--blue);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 19px;
+}
