@@ -29,4 +29,4 @@ API do Github para realizar o desafio: https://api.github.com/users/NOME_USUÁRI
 
 Resultado
 
-[imagem]
+<img src="https://raw.githubusercontent.com/biacoelho/github-user-search-bootcamp-DevSuperior/master/demonstracao.gif" alt="imagem demo" width="320"/>
